@@ -1,0 +1,86 @@
+body{
+    width: 60%;
+    margin: auto;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#wrapper{
+    margin:0;
+    padding:0;
+    
+}
+#header{
+    display:flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+
+}#header .left {
+   
+    display: block;
+}
+#header img{
+    width:100%;
+}
+#main{
+    width: 60%;
+    padding-left: 18%;
+}
+
+
+
+.logo img{
+    width: 30%;
+}
+.button{
+    margin:0;
+   bottom:2%;
+   padding: 2%;
+    border-bottom: 1px solid;
+}
+
+.button p{
+    font-size: 20px;
+}
+#main p{
+    font-size: 20px;
+    margin: 0;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid;
+   
+    
+}
+
+.korisniku{
+    border-top: 1px solid;
+    padding-top: 2%;
+    text-align: left;
+    
+}
+
+#footer{
+   
+    display:flex;
+    
+    justify-content: space-between;
+    
+    padding-bottom:5%;
+}
+.recenzije{
+    width: 50%;
+}
+.button3{
+   display:flex;
+   padding: 5%;
+   
+  position: relative;
+}

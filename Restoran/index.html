@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laverna</title>
+</head>
+<body>
+    <div id="wrapper">
+
+<div id="header">
+    <div>
+ <img src="slike/laverna.jpg" alt="unutrasnjost restorana">
+</div>
+ <div>
+ <maps></maps>
+ <img src="slike/food.jpg" alt="hrana">
+</div>
+</div>
+<div>
+    <img src="slike/logo.png" alt="logo">
+</div>
+<div id="main">
+    <div class="button">
+        <button>web lokacija</button>
+        <button>uputstva</button>
+        <button>sacuvaj</button>
+        <h1>Restoran</h1>
+    </div>
+    <?php 
+  
+$nazivRestorana ="LAVERNA";
+$adresaRestorana ="Zmaja od Bosne 16, Sarajevo";
+$ocjena ="4,5";
+$statusRestorana ="Otvoren";
+$telefon ="+38733456732";
+
+
+
+?>
+    <div class="adresa">
+            <h1><?php echo $nazivRestorana; ?> </h1>
+            <p>Adresa:
+            <a href="https://maps.google.com?q=<?php echo $adresaRestorana; ?>">
+            <?php echo $adresaRestorana; ?>
+            </a>
+            </p>
+   
+    </div>
+
+
+</div>
+<div id="footer">
+
+</div>
+
+
+
+
+    </div>
+    
+</body>
+</html>
