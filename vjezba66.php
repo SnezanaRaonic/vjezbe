@@ -52,9 +52,9 @@ class Auto extends Car{
 }
 
 $auto = new Automobili("KIA", "Sportage",5,"red",8.1, "97kw");
-$kombi= new Automobili("KIA", "Ceed",5,"silver",6, "88kw");
+$auto2= new Automobili("KIA", "Ceed",5,"silver",6, "88kw");
 echo $auto;
-echo $kombi;
+echo $auto2;
 echo "<br>";
 
 ?>
